@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E45CA545FBDE808C04C6928 /* Pods_ClassesMagicFun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C1B9077BB417B3F588997F /* Pods_ClassesMagicFun.framework */; };
 		7DADE3701D3FEAC300792225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DADE36F1D3FEAC300792225 /* AppDelegate.swift */; };
 		7DADE3721D3FEAC300792225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DADE3711D3FEAC300792225 /* ViewController.swift */; };
 		7DADE3751D3FEAC300792225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DADE3731D3FEAC300792225 /* Main.storyboard */; };
 		7DADE3771D3FEAC300792225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DADE3761D3FEAC300792225 /* Assets.xcassets */; };
 		7DADE37A1D3FEAC300792225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DADE3781D3FEAC300792225 /* LaunchScreen.storyboard */; };
 		7DADE3851D3FEAC300792225 /* ClassesMagicFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DADE3841D3FEAC300792225 /* ClassesMagicFunTests.swift */; };
+		9A941D9E1CF59405EABBD417 /* Pods_ClassesMagicFunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5480000448BF7A965D77BAE /* Pods_ClassesMagicFunTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F2EA896849037104EE89D31 /* Pods-ClassesMagicFunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassesMagicFunTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClassesMagicFunTests/Pods-ClassesMagicFunTests.release.xcconfig"; sourceTree = "<group>"; };
+		3BF13A2B26B6A0CFCF6E74C5 /* Pods-ClassesMagicFunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassesMagicFunTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClassesMagicFunTests/Pods-ClassesMagicFunTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46ADA164BEA26182D4183F41 /* Pods-ClassesMagicFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassesMagicFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClassesMagicFun/Pods-ClassesMagicFun.release.xcconfig"; sourceTree = "<group>"; };
 		7DADE36C1D3FEAC300792225 /* ClassesMagicFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassesMagicFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DADE36F1D3FEAC300792225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DADE3711D3FEAC300792225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		7DADE3801D3FEAC300792225 /* ClassesMagicFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassesMagicFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DADE3841D3FEAC300792225 /* ClassesMagicFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesMagicFunTests.swift; sourceTree = "<group>"; };
 		7DADE3861D3FEAC300792225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9670F7936EDBAABB1419F990 /* Pods-ClassesMagicFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassesMagicFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClassesMagicFun/Pods-ClassesMagicFun.debug.xcconfig"; sourceTree = "<group>"; };
+		C5480000448BF7A965D77BAE /* Pods_ClassesMagicFunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassesMagicFunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C1B9077BB417B3F588997F /* Pods_ClassesMagicFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassesMagicFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E45CA545FBDE808C04C6928 /* Pods_ClassesMagicFun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A941D9E1CF59405EABBD417 /* Pods_ClassesMagicFunTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B9AD5965275149E10ACD102 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3C1B9077BB417B3F588997F /* Pods_ClassesMagicFun.framework */,
+				C5480000448BF7A965D77BAE /* Pods_ClassesMagicFunTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DADE3631D3FEAC300792225 = {
 			isa = PBXGroup;
 			children = (
 				7DADE36E1D3FEAC300792225 /* ClassesMagicFun */,
 				7DADE3831D3FEAC300792225 /* ClassesMagicFunTests */,
 				7DADE36D1D3FEAC300792225 /* Products */,
+				DB458CA92381089AD58606CF /* Pods */,
+				3B9AD5965275149E10ACD102 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +117,17 @@
 			path = ClassesMagicFunTests;
 			sourceTree = "<group>";
 		};
+		DB458CA92381089AD58606CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9670F7936EDBAABB1419F990 /* Pods-ClassesMagicFun.debug.xcconfig */,
+				46ADA164BEA26182D4183F41 /* Pods-ClassesMagicFun.release.xcconfig */,
+				3BF13A2B26B6A0CFCF6E74C5 /* Pods-ClassesMagicFunTests.debug.xcconfig */,
+				0F2EA896849037104EE89D31 /* Pods-ClassesMagicFunTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DADE3891D3FEAC300792225 /* Build configuration list for PBXNativeTarget "ClassesMagicFun" */;
 			buildPhases = (
+				67B8A6F32B2AEE4BF077533C /* [CP] Check Pods Manifest.lock */,
 				7DADE3681D3FEAC300792225 /* Sources */,
 				7DADE3691D3FEAC300792225 /* Frameworks */,
 				7DADE36A1D3FEAC300792225 /* Resources */,
+				A4E5A083668AA985B20D55CB /* [CP] Embed Pods Frameworks */,
+				20BEBFFF48E211B4087D539C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DADE38C1D3FEAC300792225 /* Build configuration list for PBXNativeTarget "ClassesMagicFunTests" */;
 			buildPhases = (
+				E2522B9FE659508E692CD59A /* [CP] Check Pods Manifest.lock */,
 				7DADE37C1D3FEAC300792225 /* Sources */,
 				7DADE37D1D3FEAC300792225 /* Frameworks */,
 				7DADE37E1D3FEAC300792225 /* Resources */,
+				534A05505F2053D4B5764A8F /* [CP] Embed Pods Frameworks */,
+				B0BD3C5D00E784D1508C9112 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +229,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20BEBFFF48E211B4087D539C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClassesMagicFun/Pods-ClassesMagicFun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		534A05505F2053D4B5764A8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClassesMagicFunTests/Pods-ClassesMagicFunTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67B8A6F32B2AEE4BF077533C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4E5A083668AA985B20D55CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClassesMagicFun/Pods-ClassesMagicFun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0BD3C5D00E784D1508C9112 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClassesMagicFunTests/Pods-ClassesMagicFunTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2522B9FE659508E692CD59A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7DADE3681D3FEAC300792225 /* Sources */ = {
@@ -325,6 +456,7 @@
 		};
 		7DADE38A1D3FEAC300792225 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9670F7936EDBAABB1419F990 /* Pods-ClassesMagicFun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ClassesMagicFun/Info.plist;
@@ -336,6 +468,7 @@
 		};
 		7DADE38B1D3FEAC300792225 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46ADA164BEA26182D4183F41 /* Pods-ClassesMagicFun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ClassesMagicFun/Info.plist;
@@ -347,6 +480,7 @@
 		};
 		7DADE38D1D3FEAC300792225 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF13A2B26B6A0CFCF6E74C5 /* Pods-ClassesMagicFunTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ClassesMagicFunTests/Info.plist;
@@ -359,6 +493,7 @@
 		};
 		7DADE38E1D3FEAC300792225 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2EA896849037104EE89D31 /* Pods-ClassesMagicFunTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ClassesMagicFunTests/Info.plist;
@@ -388,6 +523,7 @@
 				7DADE38B1D3FEAC300792225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DADE38C1D3FEAC300792225 /* Build configuration list for PBXNativeTarget "ClassesMagicFunTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +532,7 @@
 				7DADE38E1D3FEAC300792225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

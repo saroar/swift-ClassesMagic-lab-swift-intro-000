@@ -1,0 +1,6 @@
+framework module Pods_ClassesMagicFun {
+  umbrella header "Pods-ClassesMagicFun-umbrella.h"
+
+  export *
+  module * { export * }
+}
