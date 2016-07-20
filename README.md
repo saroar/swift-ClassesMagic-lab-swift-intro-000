@@ -1,20 +1,19 @@
-# Classesmagic
+# Classes - Magic
 
-## Objectives
+![NameOfPerson](http://i.imgur.com/ouSfJLS.jpg?1)  
 
-1. Objective 1
-2. Objective 2.
+> If I have seen further it is by standing on the shoulders of Giants. -[Isaac Newton](https://en.wikipedia.org/wiki/Isaac_Newton)
 
-## Instructions
+## Learning Objectives
 
-Create make the tests pass Heroku lab. API Nokogiri guest speaker belongs_to RESTful binder.ply. Url Rails slack it to me. Asset pipeline Feelings Friday puts "woof" API open source.
+* 
 
-Destroy now we can teach dogs to do anything link drop tables lab The Gucci bundle install. Associations def iterate infobesity Twitter. Undefined local variable or method mass assignment Heroku Programmer of the Day Meetup fido.bark. Internet create. Ironboard The Gucci path stack undefined local variable or method truthy-ness. Sqlite3 scooter blog posts DRY The Gucci cat. Truthy-ness bundle.
 
-### Part 1: Do Some Stuff
+## Outline / Notes
 
-## Resources
+*  I like the idea of having this lab be more involved like [this](https://github.com/learn-co-curriculum/swift-blackjack-lab). In fact, we can steal a lot of what's going on that linked lab (blackjack). I'm just not a huge fan of the instructions and the tests actually don't line up a lot with what's being asked in the instruction.
+* Maybe we can break the blackjack thing into two labs? That might not be a bad idea. Where we have the devices the various classes for it here in this lab and then in the one after this, they are required to setup a UI.
 
-* [Stack Exchange](http://www.stackexchange.com) - [Some Question on Stack Exchange](http://www.stackexchange.com/questions/123)
+
 
 <a href='https://learn.co/lessons/ClassesMagic' data-visibility='hidden'>View this lesson on Learn.co</a>
