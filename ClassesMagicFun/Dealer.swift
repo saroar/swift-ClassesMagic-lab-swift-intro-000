@@ -68,4 +68,14 @@ class Dealer {
             player.dealCard(deck.drawCard()!)
         }
     }
+
+    func award() {
+        guard winner != nil else { return }
+        winner!.win(currentBet)
+        if let _ = winner as? House {
+            player.lose(currentBet)
+        } else {
+            house.lose(currentBet)
+        }
+    }
 }
