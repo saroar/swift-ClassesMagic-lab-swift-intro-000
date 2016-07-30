@@ -13,18 +13,23 @@ class Dealer {
     let player: Player
     let house: House
     var currentBet: UInt
+    var playerTurns: UInt
     var winningPlayer: Player?
     var winner: Player? {
-        if let winningPlayer = winningPlayer {
+        if let _ = winningPlayer {
             return winningPlayer
         }
 
-        if house.isBusted {
-            return player
+        if playerTurns < 2 {
+            return nil
         }
 
         if player.isBusted {
             return house
+        }
+
+        if house.isBusted {
+            return player
         }
 
         if player.handValue > house.handValue {
@@ -39,6 +44,7 @@ class Dealer {
         player = Player(name: "Player")
         house = House()
         currentBet = 0
+        playerTurns = 0
         winningPlayer = nil
     }
 
@@ -67,6 +73,7 @@ class Dealer {
         while player.willHit(currentBet) && player.handSize <= 5 {
             player.dealCard(deck.drawCard()!)
         }
+        playerTurns += 1
     }
 
     func award() {
