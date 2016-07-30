@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        let deck = Deck()
+        print("Deck: \(deck.cards.map { $0.label })")
     }
 
 }
