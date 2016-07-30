@@ -13,10 +13,11 @@
 		7DADE3751D3FEAC300792225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DADE3731D3FEAC300792225 /* Main.storyboard */; };
 		7DADE3771D3FEAC300792225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DADE3761D3FEAC300792225 /* Assets.xcassets */; };
 		7DADE37A1D3FEAC300792225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DADE3781D3FEAC300792225 /* LaunchScreen.storyboard */; };
-		7DADE3851D3FEAC300792225 /* ClassesMagicFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DADE3841D3FEAC300792225 /* ClassesMagicFunTests.swift */; };
 		9A941D9E1CF59405EABBD417 /* Pods_ClassesMagicFunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5480000448BF7A965D77BAE /* Pods_ClassesMagicFunTests.framework */; };
 		B798E8FB1D4C576400578504 /* CardSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798E8FA1D4C576400578504 /* CardSpec.swift */; };
 		B798E8FD1D4C59C400578504 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798E8FC1D4C59C400578504 /* Card.swift */; };
+		B798E9051D4C704600578504 /* DeckSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798E9041D4C704600578504 /* DeckSpec.swift */; };
+		B798E9071D4C711100578504 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798E9061D4C711100578504 /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +42,12 @@
 		7DADE3791D3FEAC300792225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DADE37B1D3FEAC300792225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DADE3801D3FEAC300792225 /* ClassesMagicFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassesMagicFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DADE3841D3FEAC300792225 /* ClassesMagicFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesMagicFunTests.swift; sourceTree = "<group>"; };
 		7DADE3861D3FEAC300792225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9670F7936EDBAABB1419F990 /* Pods-ClassesMagicFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassesMagicFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClassesMagicFun/Pods-ClassesMagicFun.debug.xcconfig"; sourceTree = "<group>"; };
 		B798E8FA1D4C576400578504 /* CardSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSpec.swift; sourceTree = "<group>"; };
 		B798E8FC1D4C59C400578504 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B798E9041D4C704600578504 /* DeckSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckSpec.swift; sourceTree = "<group>"; };
+		B798E9061D4C711100578504 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		C5480000448BF7A965D77BAE /* Pods_ClassesMagicFunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassesMagicFunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C1B9077BB417B3F588997F /* Pods_ClassesMagicFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassesMagicFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -105,6 +107,7 @@
 				7DADE36F1D3FEAC300792225 /* AppDelegate.swift */,
 				7DADE3711D3FEAC300792225 /* ViewController.swift */,
 				B798E8FC1D4C59C400578504 /* Card.swift */,
+				B798E9061D4C711100578504 /* Deck.swift */,
 				7DADE3731D3FEAC300792225 /* Main.storyboard */,
 				7DADE3761D3FEAC300792225 /* Assets.xcassets */,
 				7DADE3781D3FEAC300792225 /* LaunchScreen.storyboard */,
@@ -116,9 +119,9 @@
 		7DADE3831D3FEAC300792225 /* ClassesMagicFunTests */ = {
 			isa = PBXGroup;
 			children = (
-				7DADE3841D3FEAC300792225 /* ClassesMagicFunTests.swift */,
 				7DADE3861D3FEAC300792225 /* Info.plist */,
 				B798E8FA1D4C576400578504 /* CardSpec.swift */,
+				B798E9041D4C704600578504 /* DeckSpec.swift */,
 			);
 			path = ClassesMagicFunTests;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B798E9071D4C711100578504 /* Deck.swift in Sources */,
 				7DADE3721D3FEAC300792225 /* ViewController.swift in Sources */,
 				B798E8FD1D4C59C400578504 /* Card.swift in Sources */,
 				7DADE3701D3FEAC300792225 /* AppDelegate.swift in Sources */,
@@ -345,7 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B798E8FB1D4C576400578504 /* CardSpec.swift in Sources */,
-				7DADE3851D3FEAC300792225 /* ClassesMagicFunTests.swift in Sources */,
+				B798E9051D4C704600578504 /* DeckSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
