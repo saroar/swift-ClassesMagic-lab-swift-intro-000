@@ -49,7 +49,7 @@ class Player {
     }
 
     func willHit(bet: UInt) -> Bool {
-        return !isBusted && !isBlackjack && canPlaceBet(bet)
+        return handValue < 21 && canPlaceBet(bet)
     }
 
     func canPlaceBet(bet: UInt) -> Bool {
