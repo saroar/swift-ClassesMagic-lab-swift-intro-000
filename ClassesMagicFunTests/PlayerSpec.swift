@@ -114,6 +114,21 @@ class PlayerSpec: QuickSpec {
                 }
             }
 
+            describe("handSize") {
+                it("returns the size of the player's hand") {
+                    let card1 = Card(suit: "♠️", rank: "K")
+                    let card2 = Card(suit: "♥️", rank: "8")
+                    let card3 = Card(suit: "♣️", rank: "10")
+                    expect(player.handSize).to(equal(0))
+                    player.dealCard(card1)
+                    expect(player.handSize).to(equal(1))
+                    player.dealCard(card2)
+                    expect(player.handSize).to(equal(2))
+                    player.dealCard(card3)
+                    expect(player.handSize).to(equal(3))
+                }
+            }
+
             describe("canPlaceBet") {
                 it("returns false if the player cannot afford the bet") {
                     expect(player.canPlaceBet(100)).to(beTrue())

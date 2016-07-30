@@ -10,6 +10,9 @@ class Player {
     let name: String
     var wallet: UInt
     var hand: [Card]
+    var handSize: Int {
+        return hand.count
+    }
     var handValue: UInt {
         // There's a bit of a hitch here: Aces can be worth 1 or 11.
         // Here, we add up the score with aces worth both 1 and 11. If
