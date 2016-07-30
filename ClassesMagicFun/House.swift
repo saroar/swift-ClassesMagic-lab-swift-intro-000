@@ -9,11 +9,4 @@
 import Foundation
 
 class House: Player {
-    init() {
-        super.init(name: "House")
-    }
-
-    override func willHit(bet: UInt) -> Bool {
-        return handValue < 17
-    }
 }
