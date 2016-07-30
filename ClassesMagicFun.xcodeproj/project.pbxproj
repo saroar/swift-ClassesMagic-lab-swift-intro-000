@@ -23,6 +23,8 @@
 		B798E90F1D4C79C300578504 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798E90E1D4C79C300578504 /* Player.swift */; };
 		B798E9111D4D404500578504 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798E9101D4D404500578504 /* House.swift */; };
 		B798E9131D4D406C00578504 /* HouseSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798E9121D4D406C00578504 /* HouseSpec.swift */; };
+		B798E9151D4D442F00578504 /* DealerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798E9141D4D442F00578504 /* DealerSpec.swift */; };
+		B798E9171D4D452600578504 /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798E9161D4D452600578504 /* Dealer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		B798E90E1D4C79C300578504 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		B798E9101D4D404500578504 /* House.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 		B798E9121D4D406C00578504 /* HouseSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseSpec.swift; sourceTree = "<group>"; };
+		B798E9141D4D442F00578504 /* DealerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealerSpec.swift; sourceTree = "<group>"; };
+		B798E9161D4D452600578504 /* Dealer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
 		C5480000448BF7A965D77BAE /* Pods_ClassesMagicFunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassesMagicFunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C1B9077BB417B3F588997F /* Pods_ClassesMagicFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassesMagicFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -117,6 +121,7 @@
 				7DADE36F1D3FEAC300792225 /* AppDelegate.swift */,
 				7DADE3711D3FEAC300792225 /* ViewController.swift */,
 				B798E8FC1D4C59C400578504 /* Card.swift */,
+				B798E9161D4D452600578504 /* Dealer.swift */,
 				B798E9061D4C711100578504 /* Deck.swift */,
 				B798E9101D4D404500578504 /* House.swift */,
 				B798E90E1D4C79C300578504 /* Player.swift */,
@@ -134,6 +139,7 @@
 			children = (
 				7DADE3861D3FEAC300792225 /* Info.plist */,
 				B798E8FA1D4C576400578504 /* CardSpec.swift */,
+				B798E9141D4D442F00578504 /* DealerSpec.swift */,
 				B798E9041D4C704600578504 /* DeckSpec.swift */,
 				B798E9121D4D406C00578504 /* HouseSpec.swift */,
 				B798E90C1D4C74E300578504 /* PlayerSpec.swift */,
@@ -356,6 +362,7 @@
 				B798E90B1D4C744700578504 /* Shuffle.swift in Sources */,
 				B798E9071D4C711100578504 /* Deck.swift in Sources */,
 				7DADE3721D3FEAC300792225 /* ViewController.swift in Sources */,
+				B798E9171D4D452600578504 /* Dealer.swift in Sources */,
 				B798E8FD1D4C59C400578504 /* Card.swift in Sources */,
 				B798E90F1D4C79C300578504 /* Player.swift in Sources */,
 				7DADE3701D3FEAC300792225 /* AppDelegate.swift in Sources */,
@@ -367,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B798E8FB1D4C576400578504 /* CardSpec.swift in Sources */,
+				B798E9151D4D442F00578504 /* DealerSpec.swift in Sources */,
 				B798E9131D4D406C00578504 /* HouseSpec.swift in Sources */,
 				B798E9051D4C704600578504 /* DeckSpec.swift in Sources */,
 				B798E90D1D4C74E300578504 /* PlayerSpec.swift in Sources */,
