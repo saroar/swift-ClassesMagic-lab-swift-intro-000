@@ -1,16 +1,16 @@
-# Classes: Blackjack
+# Classes: Blackjack Lab 
 
 ![NameOfPerson](http://i.imgur.com/ouSfJLS.jpg?1)  
 
 > If I have seen further it is by standing on the shoulders of Giants. -[Isaac Newton](https://en.wikipedia.org/wiki/Isaac_Newton)
 
-## Learning Objectives
+## Overview
 
-* Complete this lab
+In this lab, you'll implement classes to play a game of Blackjack. 
 
 ## Introduction
 
-In this lab, you will implement classes to play a game of Blackjack. If you're not familiar with Blackjack, the [Wikipedia entry]() should tell you everything you need to know. The implementation of this game will be fairly simple. You'll create a few classes that are able to interact with each other through methods. Together these classes will simulate a simple game of Blackjack.
+In this lab, you will implement classes to play a game of Blackjack. If you're not familiar with Blackjack, the [Wikipedia entry](https://en.wikipedia.org/wiki/Blackjack) should tell you everything you need to know. The implementation of this game will be fairly simple. You'll create a few classes that are able to interact with each other through methods. Together these classes will simulate a simple game of Blackjack.
 
 You can start the lab by opening up `ClassesMagicFun.xcworkspace` in Xcode. This project contains several files in which you will implement the classes needed to run the game. It also includes tests. You can run these tests by select **Test** from the **Product** menu, or by pressing <kbd>Command</kbd>-U. If you implement the classes correctly, all the tests should pass.
 
