@@ -10,8 +10,8 @@ target 'ClassesMagicFun' do
   target 'ClassesMagicFunTests' do
     inherit! :search_paths
     # Pods for testing
-	pod 'Quick', '~> 0.9'
-	pod 'Nimble', '~> 4.1'
+	pod 'Quick'
+	pod 'Nimble'
   end
 
 end
