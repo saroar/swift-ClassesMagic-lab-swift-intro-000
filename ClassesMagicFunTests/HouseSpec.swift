@@ -17,8 +17,10 @@ class HouseSpec: QuickSpec {
         describe("House") {
             describe("willHit") {
                 let house = House()
-
+                
                 it("should hit if its hand is below 17") {
+    
+                    
                     let card1 = Card(suit: "♥️", rank: "Q")
                     let card2 = Card(suit: "♣️", rank: "5")
                     let card3 = Card(suit: "♠️", rank: "2")
