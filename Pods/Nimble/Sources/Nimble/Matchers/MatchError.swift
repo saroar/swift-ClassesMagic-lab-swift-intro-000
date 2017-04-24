@@ -9,8 +9,8 @@ public func matchError<T: Error>(_ error: T) -> NonNilMatcherFunc<Error> {
     return NonNilMatcherFunc { actualExpression, failureMessage in
         let actualError: Error? = try actualExpression.evaluate()
 
-        setFailureMessageForError(failureMessage, postfixMessageVerb: "match", actualError: actualError, error: error)
-        return errorMatchesNonNilFieldsOrClosure(actualError, error: error)
+        setFailureMessageForException(failureMessage, postfixMessageVerb: "match", actualError: actualError, error: error, userInfo: <#NSDictionary?#>)
+        return exceptionMatchesNonNilFieldsOrClosure(actualError, error: error, reason: <#String?#>)
     }
 }
 
@@ -20,7 +20,7 @@ public func matchError<T: Error>(_ errorType: T.Type) -> NonNilMatcherFunc<Error
     return NonNilMatcherFunc { actualExpression, failureMessage in
         let actualError: Error? = try actualExpression.evaluate()
 
-        setFailureMessageForError(failureMessage, postfixMessageVerb: "match", actualError: actualError, errorType: errorType)
-        return errorMatchesNonNilFieldsOrClosure(actualError, errorType: errorType)
+        setFailureMessageForException(failureMessage, postfixMessageVerb: "match", actualError: actualError, errorType: errorType, userInfo: <#NSDictionary?#>)
+        return exceptionMatchesNonNilFieldsOrClosure(actualError, errorType: errorType, reason: <#String?#>)
     }
 }

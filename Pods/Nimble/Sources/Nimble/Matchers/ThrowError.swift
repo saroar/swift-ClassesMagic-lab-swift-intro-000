@@ -24,8 +24,8 @@ public func throwError<T: Error>(
                 actualError = catchedError
             }
 
-            setFailureMessageForError(failureMessage, actualError: actualError, error: error, errorType: errorType, closure: closure)
-            return errorMatchesNonNilFieldsOrClosure(actualError, error: error, errorType: errorType, closure: closure)
+            setFailureMessageForException(failureMessage, exception: actualError as? NSException, named: error as! String, reason: errorType, userInfo: <#NSDictionary?#>, closure: closure)
+            return exceptionMatchesNonNilFieldsOrClosure(actualError as! NSException, named: error, reason: errorType, userInfo: <#NSDictionary?#>, closure: closure)
         }
 }
 
